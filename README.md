@@ -50,25 +50,6 @@ It fulfills the assignment requirements to create a **catalog page** that dynami
 
 ---
 
-## 📁 Project Structure
-
-/theme-root
-│
-├── templates/
-│ ├── shop-page.php # Main catalog page template
-│ └── product-details.php # Custom product details page
-│
-├── assets/
-│ ├── csv/products.csv # Product data source
-│ ├── images/ # Product images
-│ ├── js/custom-shop.js # AJAX and dynamic interactions
-│ └── css/style.css # Custom styling
-│
-└── functions.php # CSV loading and integration
-
-
----
-
 ## 🧾 How to Use
 
 1. Upload the theme to your **WordPress** installation or hosting environment.  
