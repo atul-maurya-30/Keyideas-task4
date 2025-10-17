@@ -1,97 +1,54 @@
-# 🛍️ Custom WooCommerce Catalog Page (Without Plugins)
+# 🛍️ Custom WooCommerce-Style Catalog (No Plugins)
 
-This project is a **custom-built WooCommerce-style catalog page** developed entirely with **PHP and WordPress**, **without using any plugins** for importing or displaying products.
-
-It fulfills the assignment requirements to create a **catalog page** that dynamically imports products from a **CSV file** and displays them with sorting, filtering, and infinite scroll — replicating the functionality and layout of the [Blue Nile Wedding Rings Catalog](https://www.bluenile.com/wedding-rings/all-wedding-rings?hasNoStones=yes).
-
----
-
-## ⚙️ Features
-
-- **📦 CSV-Based Product Import**  
-  Imports all products (name, price, image, category, etc.) directly from a CSV file using a custom PHP function — no plugins required.
-
-- **🛍️ Dynamic Catalog Page**  
-  Displays all imported products in a grid layout, styled similarly to the Blue Nile catalog.
-
-- **💰 Price Filter**  
-  Enables filtering of products within a specific price range.
-
-- **↕️ Sorting Options**  
-  Allows sorting by:
-  - Price: Low to High  
-  - Price: High to Low  
-  - Most Popular
-
-- **👫 Category & Gender Filters**  
-  Includes filters for sub-category and gender (Men/Women).
-
-- **🔄 Infinite Scroll**  
-  Loads 12 products initially and automatically loads more as the user scrolls down.
-
-- **📄 Product Details Page**  
-  Each product links to a **custom product details page**, dynamically loaded from the same CSV file.
-
-- **🚫 No Plugin Usage**  
-  The entire functionality is implemented manually using PHP, HTML, CSS, and JavaScript — without WooCommerce or any external WordPress plugins.
-
-- **⚡ AJAX Integration**  
-  AJAX is used for smooth interactions like wishlist management and infinite scrolling.
+A compact, custom e-commerce catalog built with WordPress/PHP (no WooCommerce or other plugins).  
+Provides CSV-driven products, filtering, cart, and a simple checkout flow — implemented inside a custom theme.
 
 ---
 
-## 🧠 Technologies Used
+## ✨ Key Features
+- Product grid with image, price, and brief details  
+- Sidebar filters: price, category, gender  
+- Sorting (price / popularity)  
+- Persistent cart (add, update, remove)  
+- Multi-step checkout (shipping → payment → review)  
+- AJAX interactions and infinite scroll  
+- Responsive layout (desktop / tablet / mobile)
 
-- **WordPress (Custom Template Development)**
-- **PHP**
-- **HTML5 / CSS3**
-- **JavaScript (AJAX)**
-- **CSV File Handling**
-
----
-
-## 🧾 How to Use
-
-1. Upload the theme to your **WordPress** installation or hosting environment.  
-2. Place the `products.csv` file inside the `/assets/csv/` folder.  
-3. Assign the **“Shop Page”** template to a WordPress page.  
-4. The catalog will automatically render products dynamically from the CSV data.
 
 ---
 
-## 🌈 Additional Enhancements
-
-- Added hover effects on product images for better UX.  
-- Used `.webp` images for improved loading speed.  
-- Fixed CSS grid alignment and responsiveness.  
-- Performed unit testing for catalog and scroll loading behavior.
-
----
-
-## ✅ Assignment Requirements Covered
-
-- CSV import feature (no manual product addition)  
-- Single catalog page resembling Blue Nile layout  
-- Price, category, and gender filters  
-- Sorting options (Low–High, High–Low, Popularity)  
-- Infinite scrolling  
-- No use of WooCommerce or third-party plugins
+## 🚀 Quick Install
+1. Upload `theme-folder` to `/wp-content/themes/`  
+2. Activate theme in WP Admin → Appearance → Themes  
+3. Create pages: **Shop**, **Cart**, **Checkout** and assign templates  
+4. Place `products.csv` in `assets/csv/` and upload images to `assets/images/`
 
 ---
 
-## 🌐 Live Demo
-
-🔗 **Hosted Link** [https://keyideas-wedding.iceiy.com/](https://keyideas-wedding.iceiy.com/?)
-
----
-
-## 🎥 Submission Details
-
-- Assignment: *Build a Catalog Page using WooCommerce / WordPress (No Plugins)*  
-- Includes: Backend CSV import, single catalog page, filters, sorting, and infinite scrolling.  
-- Bonus: Additional UI enhancements and optimized media usage.
+## 🛒 Usage (short)
+- Visit **Shop** to browse and filter products  
+- Click product to view details and **Add to Cart**  
+- Open **Cart** to edit or remove items  
+- Proceed to **Checkout** to place an order
 
 ---
 
-### 👨‍💻 Developed By
-**Atul Maurya**
+## ✅ Testing Checklist (short)
+- Products load and images display  
+- Filters and sorting work correctly  
+- Add / update / remove cart items  
+- Checkout completes and order saved
+
+---
+
+## 🌐 Demo & Support
+ Live demo: `https://keyideas-wedding.iceiy.com/`  
+
+---
+
+## 📝 License
+Custom proprietary code tailored for client requirements.
+
+---
+## Developed by
+Atul Mauurya
