@@ -1,7 +1,7 @@
 # 🛍️ Custom WooCommerce-Style Catalog (No Plugins)
 
 A compact, custom e-commerce catalog built with WordPress/PHP (no WooCommerce or other plugins).  
-Provides CSV-driven products, filtering, cart, and a simple checkout flow — implemented inside a custom theme.
+Provides CSV-driven products, filtering, cart, and a simple checkout flow implemented inside a custom theme.
 
 ---
 
